@@ -1,0 +1,22 @@
+{
+  "name": "Auth",
+  "version": "0.1.0",
+  "summary": "A short description of Auth.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/david zhang,/Auth",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "david zhang,": "zmao008@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/david zhang,/Auth.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Auth/Classes/**/*"
+}
