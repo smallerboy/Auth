@@ -28,12 +28,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'Auth/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Auth' => ['Auth/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'WalletConnectSign', '~> 1.0.1'  
+  s.dependency 'Web3', '~> ~> 0.4.2'
+
+  s.swift_version = '5'
+
+  
 end
