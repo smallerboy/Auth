@@ -1,4 +1,4 @@
 import Foundation
-import JSONRPC
+import jsonPRC
 
-public typealias RPCID = JSONRPC.RPCID
+public typealias RPCID = jsonPRC.RPCID

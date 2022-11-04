@@ -1,5 +1,5 @@
 import Foundation
-import JSONRPC
+import jsonPRC
 import WalletConnectKMS
 import WalletConnectUtils
 import WalletConnectNetworking
