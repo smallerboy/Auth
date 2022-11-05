@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Auth'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Auth library'
 
 # This description is used to generate tags and improve search results.
@@ -23,14 +23,16 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'david zhang,' => 'zmao008@gmail.com' }
   s.source           = { :git => 'https://github.com/smallerboy/Auth.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'Auth/Classes/**/*'
 
-  s.dependency 'WalletConnectSign', '~> 1.0.1'  
-  s.dependency 'Web3', '~> ~> 0.4.2'
+  s.dependency 'WalletConnectPairing', '~> 1.0.1' 
+  s.dependency 'WalletConnectWeb3', '~> 1.0.1'
+  #s.subspec 'WalletConnectWeb3' do |ss|
+   # ss.dependency "CryptoSwift", "1.6.0"
+  #end
 
   s.swift_version = '5'
 
